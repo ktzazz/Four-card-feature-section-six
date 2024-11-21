@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --BoldTxt: hsl(234, 12%, 34%);
+    --Parragraph: hsl(229, 6%, 66%);
+    --Background: hsl(0, 0%, 98%);
+    --White: #FFFFFF;
+    --Shadow: rgb(219, 227, 238);
+    --font: 'Poppins';
+    --weight2:200;
+    --weight4:400;
+    --weight:600;
+    --font-size: 15px;
+}
+
+body{
+    background-color: var(--Background);
+}
