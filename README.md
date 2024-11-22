@@ -24,6 +24,9 @@ Users should be able to:
 
 The mobile layout was easy for me, but the desktop layout not even close, I wanted to make the cards move to different places as the window shrinks but it was extremely hard and I couldn´t find any usefull information. I'm going to keep practicing on those types of layouts but this feels kinda like a bummer. 
 
+**Little update**
+I found the reason, I skipped a screen size, that's why it was looking weird. woops jaja :p
+
 ### Built with
 
 - Semantic HTML5 markup
