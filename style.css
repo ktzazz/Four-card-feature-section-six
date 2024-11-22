@@ -19,10 +19,105 @@
     --font: 'Poppins';
     --weight2:200;
     --weight4:400;
-    --weight:600;
+    --weight6:600;
     --font-size: 15px;
 }
 
 body{
     background-color: var(--Background);
+    max-width: 100vw;
+    height: auto;
+    padding-block-start: 6rem;
+}
+
+h1{
+    text-align: center;
+    font-family: var(--font);
+    font-size: 1.5rem;
+    font-weight: var(--weight2);
+    color: var(--BoldTxt);
+    padding-block-end: 1rem;
+}
+
+#first-text{
+    text-align: center;
+    font-family: var(--font);
+    font-size: var(--font-size);
+    font-weight: var(--weight4);
+    color: var(--Parragraph);
+    padding: 0rem 1.7rem 4rem 1.7rem;
+}
+
+h2{
+    text-align: initial;
+    font-family: var(--font);
+    font-size: 1.1rem;
+    font-weight: var(--weight6);
+    color: var(--BoldTxt);
+}
+
+#sq-text{
+    text-align: initial;
+    font-family: var(--font);
+    font-size: .8rem;
+    font-weight: var(--weight4);
+    color: var(--Parragraph);
+    line-height: 1.4rem;
+    margin-block-start: .35rem;
+}
+
+img{
+    max-width: 20%;
+}
+
+.vec{
+    text-align: right;
+    margin-block-start: 2rem;
+}
+
+.s-one, .s-two, .s-three, .s-four{
+    background-color: var(--White);
+    width: 19rem;
+    height: 13rem;
+    padding: 1.6rem 2rem 1.8rem 1.5rem;
+    box-shadow: 0px 7px 10px var(--Shadow);
+    border-radius: 8px;
+}
+
+.s-one{
+    border-top: 5px solid var(--Cyan);
+}
+
+.s-two{
+    border-top: 5px solid var(--Red);
+}
+
+.s-three{
+    border-top: 5px solid var(--Orange);
+}
+
+.s-four{
+    border-top: 5px solid var(--Blue);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    justify-content: center;
+    align-items: center;
+    padding-block-end: 5rem;
+}
+
+.attribution{
+    font-family: var(--font);
+    color: var(--BoldTxt);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-block-end: 15px;
+}
+
+@media (min-width: 470px){
+    
 }
