@@ -118,6 +118,25 @@ img{
     margin-block-end: 15px;
 }
 
-@media (min-width: 470px){
+@media (min-width: 550px){
     
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container{
+        max-width: 30rem;
+        display: grid;
+        grid-auto-flow: wrap;
+        grid-template-rows: repeat(3, 100px); 
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-columns: repeat(3, 100px);
+        grid-auto-columns: minmax(100px, auto);
+    }
+    
+    
+
 }
