@@ -127,16 +127,36 @@ img{
         justify-content: center;
     }
 
-    .container{
-        max-width: 30rem;
+    .container {
+        margin-block-start: 3rem;
+        margin-block-end: 3rem;
         display: grid;
-        grid-auto-flow: wrap;
-        grid-template-rows: repeat(3, 100px); 
-        grid-auto-rows: minmax(100px, auto);
-        grid-template-columns: repeat(3, 100px);
-        grid-auto-columns: minmax(100px, auto);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 100px);
+        grid-column-gap: 1.5rem;
+        grid-row-gap: 1.2rem;
     }
-    
-    
+        
+        .s-one { 
+            grid-area: 2 / 1 / 3 / 2; 
+        }
+        .s-two { 
+            grid-area: 1 / 2 / 2 / 3; 
+        }
+        .s-three {
+            grid-area: 3 / 2 / 4 / 3; 
+        }
+        .s-four {
+            grid-area: 2 / 3 / 3 / 4; 
+        }
+
+        h1{
+            font-size: 2rem;
+        }
+        
+        #first-text{
+            max-width: 550px;
+        }
+
 
 }
